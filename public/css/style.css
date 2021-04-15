@@ -1,7 +1,6 @@
 body {
     color: darkslate#333333;
     font-family: arial;
-    max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
     display: flex;
@@ -11,6 +10,8 @@ body {
 
 .main-content {
     flex-grow: 1;
+    max-width: 650px;
+    margin-left: 120px;
 }
 
 footer {
@@ -23,6 +24,10 @@ footer {
 header {
     margin-top: 16px;
     margin-bottom: 48px;
+    border: none;
+    -webkit-box-shadow: 3px 15px 21px -3px rgba(176,196,222,0.41);
+    -moz-box-shadow: 3px 15px 21px -3px rgba(176,196,222,0.41);
+    box-shadow: 3px 15px 21px -3px rgba(176,196,222,0.41);
 }
 
 header a {
@@ -31,9 +36,12 @@ header a {
     text-decoration: none;
 }
 
-h1 {
-    font-size: 64px;
+.title {
+    font-size: 44px;
     margin-bottom: 16px;
+    text-align: center;
+    font-family: cursive;
+    color: #ADD8E6	;
 }
 
 .portrait {
@@ -43,6 +51,16 @@ h1 {
 input {
     border: 1px solid #cccccc;
     padding: 8px;
+}
+
+.mapbox {
+    color: #4264fb;
+    text-decoration: none;
+}
+
+.weatherstack {
+    color: #2d5971;
+    text-decoration: none;
 }
 
 button {
